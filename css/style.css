@@ -1,0 +1,186 @@
+body {
+  background: f1fbff;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+}
+
+.carousel-caption {
+  bottom: 220px;
+  z-index: 2;
+}
+
+.carousel-caption h5 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+
+.carousel-caption p {
+  width: 60%;
+  margin: auto;
+  line-height: 1.9;
+}
+
+.carousel-inner::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.navbar-nav a {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: rgb(72, 255, 72) !important;
+  transition: 0.5s;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.frozen-fish {
+  padding-top: 55px;
+}
+
+.w-100 {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.card {
+  margin-bottom: 16px;
+}
+
+.gallery-item {
+  margin-top: 16px;
+}
+
+.about-text {
+  margin-top: 20px;
+}
+
+.navbar {
+  transition: all 0.5s;
+}
+
+.navbar-scrolled {
+  background-color: #212529;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Google Translator */
+
+.translated-ltr {
+  margin-top: -40px;
+}
+
+.translated-ltr {
+  margin-top: -40px;
+}
+
+.goog-te-banner-frame {
+  display: none;
+  margin-top: -20px;
+}
+
+.goog-logo-link {
+  display: none !important;
+}
+
+.goog-te-gadget {
+  color: transparent !important;
+}
+
+#google_element {
+  left: 10px;
+  bottom: -5px;
+}
+
+.VIpgJd-ZVi9od-ORHb-OEVmcd.skiptranslate {
+  display: none;
+}
+
+.VIpgJd-ZVi9od-l4eHX-hSRGPd {
+  display: none;
+}
+
+.goog-te-combo {
+  background: #212529;
+  color: white;
+  border-color: #212529;
+  border-radius: 100px 100px;
+  width: 8%;
+}
+
+select.goog-te-combo {
+  text-align: center !important;
+}
+
+.text-white {
+  list-style: none;
+}
+
+/* Google Translator */
+
+/* Responsive CSS */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .carousel-caption {
+    bottom: 370px;
+  }
+  .carousel-caption p {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .goog-te-combo {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-nav {
+    text-align: left;
+  }
+  .carousel-caption {
+    bottom: 260px;
+  }
+
+  .carousel-caption h5 {
+    font-size: 17px;
+  }
+
+  .carousel-caption a {
+    padding: 10px 15px;
+  }
+
+  .carousel-caption p {
+    width: 100%;
+    line-height: 1.6;
+    font-size: 12px;
+  }
+
+  .goog-te-combo {
+    width: 25%;
+  }
+}
